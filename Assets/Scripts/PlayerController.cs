@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
@@ -16,6 +17,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.x< -10)
+        {
+            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
+        }
        moveInput = moveAction.ReadValue<Vector2>();
 
         transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * speed);
