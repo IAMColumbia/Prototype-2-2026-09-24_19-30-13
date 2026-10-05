@@ -8,11 +8,14 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public Vector2 moveInput;
     public float speed = 10.0f;
     public float xRange = 10.0f;
+    public GameObject projectilePrefab;
+    public InputAction fireAction;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         moveAction.Enable();
+        fireAction.Enable();
     }
 
     // Update is called once per frame
