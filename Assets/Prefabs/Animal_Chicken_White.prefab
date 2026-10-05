@@ -1257,6 +1257,7 @@ GameObject:
   - component: {fileID: 6100880800267872028}
   - component: {fileID: 1284929097164653282}
   - component: {fileID: 4561442001025495271}
+  - component: {fileID: 7099411484016560319}
   m_Layer: 0
   m_Name: Animal_Chicken_White
   m_TagString: Untagged
@@ -1322,6 +1323,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 10
+--- !u!114 &7099411484016560319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7249712764121272187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099ab5a9b5e60eb44a844b7fb7a27141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
 --- !u!1 &7458451354195302208
 GameObject:
   m_ObjectHideFlags: 0
