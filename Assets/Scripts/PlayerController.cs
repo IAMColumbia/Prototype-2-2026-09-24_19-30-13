@@ -35,7 +35,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * speed);
         if (fireAction.triggered)
         {
-            Debug.Log("FIRED A PIZZA");
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
 }
