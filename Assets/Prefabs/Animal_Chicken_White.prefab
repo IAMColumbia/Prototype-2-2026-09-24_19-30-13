@@ -1258,6 +1258,7 @@ GameObject:
   - component: {fileID: 1284929097164653282}
   - component: {fileID: 4561442001025495271}
   - component: {fileID: 7099411484016560319}
+  - component: {fileID: 4141230732656919160}
   m_Layer: 0
   m_Name: Animal_Chicken_White
   m_TagString: Untagged
@@ -1335,6 +1336,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 099ab5a9b5e60eb44a844b7fb7a27141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &4141230732656919160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7249712764121272187}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12, y: 18.127962, z: 20.675812}
+  m_Center: {x: 0, y: 8.423984, z: 1.2867317}
 --- !u!1 &7458451354195302208
 GameObject:
   m_ObjectHideFlags: 0

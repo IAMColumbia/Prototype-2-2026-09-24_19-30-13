@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 6975586427011251816}
   - component: {fileID: 5054170824281375973}
   - component: {fileID: 7448903965868738032}
+  - component: {fileID: 3611559504177783397}
   m_Layer: 0
   m_Name: Animal_Chick
   m_TagString: Untagged
@@ -307,6 +308,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 099ab5a9b5e60eb44a844b7fb7a27141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &3611559504177783397
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7582333973846146810}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6, y: 6, z: 8}
+  m_Center: {x: 0, y: 2.94, z: 0}
 --- !u!1 &7955017396183481182
 GameObject:
   m_ObjectHideFlags: 0
